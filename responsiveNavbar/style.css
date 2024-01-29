@@ -1,0 +1,41 @@
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    /* display: inline-block; */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h1{
+    display:none;
+    cursor: pointer;
+}
+
+.displayNone{
+    display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+
+    h1{
+        display: block;
+    }
+
+    ul{
+        display: none;
+        order: 3;
+    }
+  }
